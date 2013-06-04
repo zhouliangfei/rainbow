@@ -1,0 +1,15 @@
+[
+{"name": "box_keyBase.png", "x": 557,"y":  75,"w": 203,"h": 256},
+{"name": "box_key3.png", "x": 685,"y":  87,"w":  57,"h":  58},
+{"name": "box_key2.png", "x": 627,"y":  87,"w":  58,"h":  58},
+{"name": "box_key1.png", "x": 570,"y":  87,"w":  57,"h":  58},
+{"name": "box_key6.png", "x": 685,"y": 144,"w":  57,"h":  59},
+{"name": "box_key5.png", "x": 627,"y": 144,"w":  58,"h":  59},
+{"name": "box_key4.png", "x": 570,"y": 144,"w":  57,"h":  59},
+{"name": "box_key9.png", "x": 685,"y": 202,"w":  57,"h":  58},
+{"name": "box_key8.png", "x": 627,"y": 202,"w":  58,"h":  58},
+{"name": "box_key7.png", "x": 570,"y": 202,"w":  57,"h":  58},
+{"name": "box_keyback.png", "x": 685,"y": 259,"w":  57,"h":  59},
+{"name": "box_key..png", "x": 627,"y": 259,"w":  58,"h":  59},
+{"name": "box_key0.png", "x": 570,"y": 259,"w":  57,"h":  59}
+]

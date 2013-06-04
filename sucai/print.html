@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<style>
+* {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	font-size:12px;
+}
+
+hr {
+	border-bottom-style: dashed;
+	border-width: 1px;
+}
+
+.head {
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	padding: 4px;
+}
+.content {
+	margin: auto;
+	width: 495px;
+	text-align: left;
+}
+.row31 {
+	padding: 4px;
+	width: 157px;
+	display:table-cell;
+	text-align: left;
+}
+.row32 {
+	padding: 4px;
+	width: 322px;
+	display: table-cell;
+	text-align: left;
+}
+.blockN {
+	width: 157px;
+	padding: 4px;
+	display: table-cell;
+	text-align: left;
+}
+.blockR {
+	width: 156px;
+	padding: 4px;
+	display: table-cell;
+	border-right-style: dashed;
+	border-width: 1px;
+	text-align: left;
+}
+</style>
+</head>
+
+<body>
+<div class="head">产品订单列表</div>
+<hr>
+<div class="content">
+  <div class="row31">姓名：$name</div>
+  <div class="row31">电话：$phone</div>
+  <div class="row31">日期：$createDate</div>
+</div>
+<hr>
+<div class="content">
+  <div class="row32">地址：$address</div>
+  <div class="row31">总价：$total</div>
+</div>
+<hr>
+<div class="content">
+    <!--foreach($rows){-->
+        <!--foreach($cols){-->
+            <div class="$drawLine?blockR:blockN"><img src="$photo" width="86" height="70"/><img src="$specPhoto" width="70" height="70"/>
+                <div>分类：$type</div>
+                <div>型号：$code</div>
+                <div>价格：$price</div>
+                <div>数量：$amount</div>
+                <div>配色方案：$color</div>
+                <div>产品规格：$specifications</div>
+                <div>产品来源：$fromType</div>
+            </div>
+        <!--}-->
+        <hr>
+    <!--}-->
+</div>
+</body>
+</html>
